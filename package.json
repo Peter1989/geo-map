@@ -1,13 +1,16 @@
 {
   "name": "geo-map-draw",
   "private": false,
-  "version": "0.0.9",
+  "version": "0.0.11",
   "type": "module",
   "files": [
     "dist"
   ],
   "main": "./dist/geo-map-draw.umd.js",
   "module": "./dist/geo-map-draw.es.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "exports": {
     ".": {
       "import": "./dist/geo-map-draw.es.js",

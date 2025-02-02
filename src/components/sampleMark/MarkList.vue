@@ -28,7 +28,7 @@
           align="center"
         >
           <template #default="scope">
-            <span>{{scope.row.id.substr(-3)||"暂无"}}</span>
+            <span>{{scope?.row.id.substr(-3)||"暂无"}}</span>
           </template>
         </el-table-column>
         <el-table-column
@@ -39,9 +39,9 @@
           <template #default="scope">
             <span
               class="tag"
-              @click="selectTag(scope.row)"
+              @click="selectTag(scope?.row)"
             >{{
-          scope.row.tag
+          scope?.row.tag
         }}</span>
           </template>
         </el-table-column>

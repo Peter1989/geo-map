@@ -5,8 +5,8 @@
 import {ref,onMounted} from 'vue'
 import LeafMap from "@/components/map/Leaf.ts"
 import FunctionRow from "@/components/sampleMark/FunctionRow.vue"
-import MapPane from "./components/sampleMark/MapPane.vue"
-import MarkList from "./components/sampleMark/MarkList.vue"
+import MapPane from "@/components/sampleMark/MapPane.vue"
+import MarkList from "@/components/sampleMark/MarkList.vue"
 
 const map=ref()
 

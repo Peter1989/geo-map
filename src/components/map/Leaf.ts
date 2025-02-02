@@ -6,7 +6,7 @@ import LeafSbs from "./leaf-sbs.ts"
 import "@geoman-io/leaflet-geoman-free"
 import "@geoman-io/leaflet-geoman-free/dist/leaflet-geoman.css"
 import { MarkListLoadedEvent } from "../mitt/EventType"
-
+import Selector from "./Selector"
 import { MapMode } from "../sampleMark/MapEvent"
 
 export default class LeafMap implements IMap {
